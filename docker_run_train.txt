@@ -1,0 +1,1 @@
+sudo docker run -v /home/pacole2/Projects:/home/Projects/ 278aaeed207a /bin/bash -c "cd /home/Projects/stylegan2/; python run_training.py --num-gpus=4 --data-dir=/home/Projects/datasets --config=config-f --dataset=cxr8dataset"
